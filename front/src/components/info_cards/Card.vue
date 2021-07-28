@@ -34,11 +34,11 @@
                 }
             }
         },
-         methods: {
-                increment: function (element) {                
-                    this.$store.dispatch(CARDS_INCREMENT_LIKE_ACTION,element)
-                }
-            }
+        methods: {
+            async increment(element){                
+                await this.$store.dispatch(CARDS_INCREMENT_LIKE_ACTION,element)
+            },
+        }
     }
 </script>
 
