@@ -50,6 +50,15 @@
         background: #FFFFFF;
         border-radius: 4px;
 
+        .card-section__image.tag + .card-section__description{
+            font-family: Ubuntu;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 22px;
+
+        }
+
         .card-section__image {
             display: flex;
             flex-direction: column;
@@ -67,11 +76,7 @@
                 backdrop-filter: blur(10px);                
                 color: #FFFFFF;
                 text-align: center;
-                font-family: Ubuntu;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 15px;
-                line-height: 22px;
+
 
                 .tag__text{
                     margin-top: 6px;
@@ -91,18 +96,14 @@
         .card-section__description{
                 margin: 28px 21px 20px 18px;
                 text-align: justify;
-                font-family: Ubuntu;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 15px;
-                line-height: 22px;
+
                 color: #666565;
         }
 
         .card-section__footer{
             display: flex;
             justify-content: space-between;
-            margin: 10px;
+            margin: 18px;
 
             .date{
                 font-family: Ubuntu;
