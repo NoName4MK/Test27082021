@@ -54,7 +54,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            height: 60%;
+            height: 55%;
             background-size: cover;
             margin: 10px;
 
@@ -85,11 +85,11 @@
 
         .card-section__title{
             text-align: justify;
-            margin: 10px;
+            margin: 18px;
         }
 
         .card-section__description{
-                margin: 20px 10px 20px 10px;
+                margin: 28px 21px 20px 18px;
                 text-align: justify;
                 font-family: Ubuntu;
                 font-style: normal;

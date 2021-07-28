@@ -49,12 +49,6 @@ export default {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
-        margin: 20px;
-        
-        @media screen and (max-width: 972px) {
-            margin: 0px;
-        }
-        
+        width: 100%;       
     }
  </style>
