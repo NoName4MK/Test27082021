@@ -104,23 +104,23 @@
             display: flex;
             justify-content: space-between;
             margin: 18px;
+            color: #909599;
+            font-weight: normal;
+            line-height: 22px;
 
             .date{
                 font-family: Ubuntu;
                 font-style: italic;
-                font-weight: normal;
                 font-size: 13px;
-                line-height: 22px;
-                color: #909599;
-            }
+
+                }
             .like{
                 display: flex;
                 font-family: Arial;
                 font-style: normal;
-                font-weight: normal;
                 font-size: 12px;
-                line-height: 22px;
-                color: #909599;
+                
+                
 
                 .like__image{
                     margin-top: 5px;
@@ -128,6 +128,7 @@
                     height: 13px;
                     width: 15px;
                     background-size: cover;
+                    cursor: pointer;
                 }
             }
         }

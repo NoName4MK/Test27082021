@@ -20,7 +20,8 @@ export default {
 </script>
 
 <style>
-#app {
+body {
+    margin: 182px 0px 0px 0px;
 	background: #E5E5E5;
 }
 </style>
